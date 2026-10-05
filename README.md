@@ -12,17 +12,16 @@ Because of the nature of 3D models and their large file size, we use Git LFS (La
 ## Installation
 1. If on Windows install Git LFS [here](https://git-lfs.com/)
    or if on Mac/Linux
-'''
+```
 brew install git-lfs          # macOS
 sudo apt install git-lfs      # Debian/Ubuntu
-'''
-2. Enable once per machine
-'''
+```
+3. Enable once per machine
+```
 git lfs install
-'''
-3. Make sure to track all file types neccesary (.stl, .3mf, etc.)
-
-'''
+```
+5. Make sure to track all file types neccesary (.stl, .3mf, etc.)
+```
 git lfs track "*.filetype"
-'''
+```
 4. Push changes now like a regular commit
